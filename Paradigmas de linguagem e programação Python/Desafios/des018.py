@@ -1,0 +1,16 @@
+#Desafio 18 - Escreva um programa que leia um angulo qualquer e mostre na tela o valor do seno, coseno e tangente desse angulo.
+print()
+print('='*40)
+print('Calcula o Seno, Cosseno e a Tangente')
+print('='*40)
+print()
+import math
+angulo = int(input('Entre com o ângulo para encontrar o Sen, Cos e Tan: '))
+ang_rad = math.radians(angulo)
+sen = math.sin(ang_rad)
+cos = math.cos(ang_rad)
+tan = math.tan(ang_rad)
+print('\nO seno do Ângulo {} é: {:.4f}'.format(angulo, sen))
+print('\nO Cosseno do Ângulo {} é: {:.4f}'.format(angulo, cos))
+print('\nA Tangente do Ângulo {} é: {:.4f}'.format(angulo, tan))
+print()

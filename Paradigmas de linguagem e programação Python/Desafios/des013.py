@@ -1,0 +1,11 @@
+#Desafio 13 - Escreva um programa que leia o salario e mostre seu novo salario. Com 15% de aumento.
+print()
+print('='*30)
+print('Calculo de aumento salarial')
+print('='*30)
+print()
+salario = float(input('Entre com o salário: R$ '))
+sal_novo = salario + salario * (15/100)
+print()
+print('O novo salário com 15% de aumento é: R$ {:.2f}'.format(sal_novo))
+print()
