@@ -38,7 +38,7 @@ def main():
     except Exception as e:
         print(f"Erro inesperado: {e}")
 
-    inspect(d, private=True, methods=True)
+    #inspect(d, private=True, methods=True)
 
 if __name__ == "__main__":
     main()
