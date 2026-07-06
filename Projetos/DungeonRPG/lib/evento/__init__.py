@@ -14,7 +14,6 @@ def evento_tesouro(ficha,sala):#evento_tesouro(ficha,sala) - upgrade
     op = input('Deseja procurar algo? [s/n] ').strip().lower()
     if op == 's':
         busca = randint(1,100)
-        print(busca)
         if busca <= 60:
             loot = gerar_loot(sala)
             return loot
