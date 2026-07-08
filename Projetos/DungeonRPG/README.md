@@ -1,35 +1,60 @@
 # 🏰 Dungeon RPG (Python)
 
-Um projeto de estudo desenvolvido em Python com o objetivo de consolidar conhecimentos de programação através da construção de um jogo de RPG em modo texto.
-
-O projeto está sendo desenvolvido de forma incremental, onde cada fase introduz novos conceitos da linguagem e melhorias na arquitetura do código. O foco não é apenas criar um jogo funcional, mas também aplicar boas práticas de programação, modularização e, futuramente, Programação Orientada a Objetos (POO).
+> Um projeto de estudo desenvolvido em Python para consolidar conhecimentos de programação através da criação de um RPG em modo texto.
 
 ---
 
-## 🎯 Objetivos do Projeto
+# 📖 Sobre o projeto
+
+O **Dungeon RPG** nasceu como um projeto de aprendizado durante minha transição de carreira para a área de desenvolvimento de software.
+
+Ao invés de desenvolver apenas exercícios isolados, optei por construir um projeto único e evoluí-lo continuamente conforme novos conceitos são estudados.
+
+Cada nova fase representa um novo conjunto de conhecimentos adquiridos, permitindo refatorar o código, melhorar sua arquitetura e aplicar boas práticas de desenvolvimento.
+
+O objetivo não é apenas criar um jogo funcional, mas construir um projeto que acompanhe minha evolução como desenvolvedor Python.
+
+---
+
+# 🎯 Objetivos
 
 * Consolidar os fundamentos da linguagem Python.
-* Praticar desenvolvimento de projetos de médio porte.
-* Evoluir a arquitetura do código gradualmente.
-* Aplicar conceitos de design de software.
-* Servir como base para um RPG mais complexo no futuro.
+* Aplicar os conceitos estudados em um projeto real.
+* Desenvolver boas práticas de organização de código.
+* Evoluir gradualmente a arquitetura do sistema.
+* Preparar o projeto para Programação Orientada a Objetos, persistência de dados e futuras expansões.
 
 ---
 
-# 📌 Estado Atual do Projeto
+# 🚧 Status do Projeto
 
-**Status:** 🚧 Em desenvolvimento
+**Situação:** Em desenvolvimento contínuo
 
-**Fase Atual:** **Fase 2.5 – Estruturação da Dungeon**
+**Versão Atual:** Fase 2.5 – Estruturação da Dungeon
 
-Nesta fase o projeto está evoluindo de uma sequência de eventos aleatórios para uma dungeon persistente, composta por salas instanciadas, histórico de exploração e possibilidade de navegação entre ambientes.
+Nesta etapa o projeto deixa de utilizar apenas eventos aleatórios para evoluir para uma dungeon persistente composta por salas independentes, histórico de exploração e navegação entre ambientes.
 
 ---
 
-# ✅ Funcionalidades Implementadas
+# 🖼 Demonstração
+
+> *(Adicionar aqui futuramente imagens ou GIFs do jogo em execução.)*
+
+Exemplos sugeridos:
+
+* Menu Principal
+* Criação do Personagem
+* Exploração
+* Combate
+* Inventário
+* Loot encontrado
+
+---
+
+# ✨ Funcionalidades Implementadas
 
 * Criação de personagem
-* Sistema de exploração da dungeon
+* Sistema de exploração
 * Sistema de combate
 * Eventos aleatórios
 * Armadilhas
@@ -39,145 +64,173 @@ Nesta fase o projeto está evoluindo de uma sequência de eventos aleatórios pa
 * Inventário
 * Equipamentos
 * Uso de poções
-* Geração de cenários
+* Geração procedural de cenários
 * Geração de salas
-* Diferentes categorias de tesouros
-* Diferentes categorias de equipamentos
 * Modularização em pacotes Python
-* Separação das responsabilidades por módulos
+* Separação de responsabilidades entre módulos
 
 ---
 
-# 📅 Roadmap do Projeto
+# 🧠 Conceitos praticados
 
-## ✅ Fase 1 — Fundamentos do Projeto
+Durante o desenvolvimento deste projeto foram aplicados os seguintes conceitos:
+
+* Variáveis
+* Estruturas condicionais
+* Estruturas de repetição
+* Funções
+* Listas
+* Tuplas
+* Dicionários
+* Modularização
+* Organização em pacotes
+* Estruturação de projetos
+* Git
+* GitHub
+
+Em breve:
+
+* Programação Orientada a Objetos (POO)
+* Persistência de dados
+* JSON
+* Banco de Dados
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+Dungeon-RPG/
+│
+├── main.py
+├── lib/
+│   ├── combate/
+│   ├── dungeon/
+│   ├── eventos/
+│   ├── interface/
+│   └── personagem/
+│
+├── README.md
+└── ...
+```
+
+---
+
+# 🗺 Roadmap
+
+## ✅ Fase 1 — Fundamentos
 
 * Estrutura inicial
 * Menu principal
 * Criação de personagem
-* Exploração básica
-* Combate simples
-* Sistema inicial de eventos
+* Exploração
+* Combate
+* Eventos básicos
 
-**Status:** ✔ Concluída
+✔ Concluída
 
 ---
 
 ## ✅ Fase 2 — Modularização
 
-* Organização em módulos
-* Separação das responsabilidades
+* Organização em pacotes
 * Inventário
 * Equipamentos
-* Sistema de loot
+* Loot
 * Sistema de raridade
-* Geração de cenários
 * Geração de salas
 
-**Status:** ✔ Concluída
+✔ Concluída
 
 ---
 
-## 🚧 Fase 2.5 — Dungeon Estruturada (Atual)
+## 🚧 Fase 2.5 — Dungeon Estruturada
 
-Objetivos desta fase:
+Objetivos:
 
-* Instanciar a dungeon no início da partida.
-* Criar salas únicas a partir de templates.
-* Permitir repetição apenas de determinados tipos de salas.
-* Registrar histórico de exploração.
-* Persistir o estado de cada sala.
-* Impedir repetição de eventos já concluídos.
-* Implementar navegação entre salas (backtracking).
-* Preparar a arquitetura para mapas completos.
+* Instanciar a dungeon no início da partida
+* Criar salas persistentes
+* Registrar histórico de exploração
+* Backtracking
+* Estado permanente das salas
+* Preparar arquitetura para mapas completos
 
-**Status:** 🔄 Em andamento
+🔄 Em andamento
 
 ---
 
-## 🔜 Fase 3 — Evolução do Sistema
+## 🔜 Próximas Fases
 
-Planejamento inicial:
+### Fase 3
 
-* Melhorias no combate
-* Monstros diferenciados
-* Sistema de atributos
 * Progressão do personagem
-* Consumíveis adicionais
-* Balanceamento dos eventos
-* Expansão do sistema de loot
-
----
-
-## 🔜 Fase 4 — Programação Orientada a Objetos
-
-Planejamento:
-
-* Refatoração completa para POO
-* Classes para Personagem
-* Classes para Dungeon
-* Classes para Sala
-* Classes para Itens
-* Classes para Monstros
-* Encapsulamento
-* Composição
-* Herança (quando fizer sentido)
-
----
-
-## 🔜 Fase 5 — Persistência de Dados
-
-Planejamento:
-
-* Sistema de Save/Load
-* Serialização dos dados
-* Arquivos JSON
-* Preparação para banco de dados
-
----
-
-## 🔜 Fase 6 — Expansão do Jogo
-
-Planejamento:
-
-* Novos cenários
 * Novos monstros
-* Chefes (Bosses)
+* Balanceamento
+* Novos consumíveis
+
+### Fase 4
+
+* Refatoração completa para Programação Orientada a Objetos
+* Classes para Personagem
+* Dungeon
+* Sala
+* Itens
+* Monstros
+
+### Fase 5
+
+* Save / Load
+* JSON
+* Persistência
+
+### Fase 6
+
 * NPCs
-* Lojas
+* Bosses
 * Missões
-* Eventos especiais
+* Lojas
 * Sistema de habilidades
 
 ---
 
-# 🛠 Tecnologias Utilizadas
+# 🚀 Como executar
 
-* Python 3.11
-* Estruturas de Dados (listas, dicionários, tuplas)
-* Modularização em pacotes
+```bash
+git clone <URL_DO_REPOSITORIO>
+
+cd Dungeon-RPG
+
+python main.py
+```
+
+---
+
+# 🛠 Tecnologias
+
+* Python 3
 * Git
 * GitHub
 
----
+Planejado futuramente:
 
-# 📚 Objetivo Educacional
-
-Este projeto faz parte da minha jornada de transição de carreira para a área de desenvolvimento de software.
-
-Todo o desenvolvimento está sendo realizado com foco no aprendizado progressivo da linguagem Python, aplicando conceitos estudados na prática antes de avançar para tópicos mais complexos como Programação Orientada a Objetos, persistência de dados e arquitetura de software.
+* JSON
+* SQLite
+* Programação Orientada a Objetos
 
 ---
 
-# 🚀 Próximos Passos
+# 📈 Minha Jornada de Aprendizado
 
-* Finalizar a Fase 2.5.
-* Iniciar os estudos e a migração gradual para Programação Orientada a Objetos.
-* Implementar persistência de dados.
-* Expandir o sistema de combate e exploração.
+Este projeto representa minha evolução como desenvolvedor.
+
+Após quase 28 anos atuando no setor bancário, decidi retomar uma antiga paixão pela tecnologia e iniciar minha transição para o desenvolvimento de software.
+
+Cada funcionalidade adicionada, cada refatoração e cada nova fase refletem um novo conhecimento adquirido durante meus estudos.
+
+Em vez de buscar apenas um resultado final, meu objetivo é construir um histórico de evolução contínua, demonstrando disciplina, organização e aprendizado constante.
 
 ---
 
-## 📌 Status do Projeto
+# 📄 Licença
 
-🚧 Projeto em desenvolvimento contínuo.
+Projeto desenvolvido para fins educacionais.
