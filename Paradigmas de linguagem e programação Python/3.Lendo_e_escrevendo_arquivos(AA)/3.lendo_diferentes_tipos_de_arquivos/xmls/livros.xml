@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <livro id="bk101">
+        <autor>Machado de Assis</autor>
+        <titulo>Dom Casmurro</titulo>
+        <genero>Romance</genero>
+        <preco>39.90</preco>
+        <data_publicacao>1899-01-01</data_publicacao>
+        <descricao>O clássico romance brasileiro que narra as memórias de Bento Santiago e a dúvida eterna sobre a traição de Capitu.</descricao>
+    </livro>
+
+    <livro id="bk102">
+        <autor>George Orwell</autor>
+        <titulo>1984</titulo>
+        <genero>Distopia</genero>
+        <preco>45.00</preco>
+        <data_publicacao>1949-06-08</data_publicacao>
+        <descricao>Uma reflexão sombria sobre o totalitarismo, a vigilância do Estado e a manipulação da verdade pelo Grande Irmão.</descricao>
+    </livro>
+
+    <livro id="bk103">
+        <autor>J.R.R. Tolkien</autor>
+        <titulo>O Hobbit</titulo>
+        <genero>Fantasia</genero>
+        <preco>54.90</preco>
+        <data_publicacao>1937-09-21</data_publicacao>
+        <descricao>A jornada mágica de Bilbo Bolseiro junto a treze anões e o mago Gandalf para recuperar um tesouro guardado por um dragão.</descricao>
+    </livro>
+
+    <livro id="bk104">
+        <autor>Gabriel García Márquez</autor>
+        <titulo>Cem Anos de Solidão</titulo>
+        <genero>Realismo Mágico</genero>
+        <preco>62.00</preco>
+        <data_publicacao>1967-05-30</data_publicacao>
+        <descricao>A saga multigeracional da família Buendía na isolada e mística cidade fictícia de Macondo.</descricao>
+    </livro>
+
+    <livro id="bk105">
+        <autor>Arthur Conan Doyle</autor>
+        <titulo>Um Estudo em Vermelho</titulo>
+        <genero>Mistério</genero>
+        <preco>29.90</preco>
+        <data_publicacao>1887-11-01</data_publicacao>
+        <descricao>O livro que introduz o lendário detetive Sherlock Holmes e seu fiel companheiro, Dr. John Watson, ao mundo.</descricao>
+    </livro>
+
+    <livro id="bk106">
+        <autor>Mary Shelley</autor>
+        <titulo>Frankenstein</titulo>
+        <genero>Terror</genero>
+        <preco>34.90</preco>
+        <data_publicacao>1818-01-01</data_publicacao>
+        <descricao>A história do cientista Victor Frankenstein e da criatura monstruosa que ele traz à vida a partir de partes humanas.</descricao>
+    </livro>
+
+    <livro id="bk107">
+        <autor>Alvus Vance</autor>
+        <titulo>As Crônicas de Aethelgard</titulo>
+        <genero>Fantasia</genero>
+        <preco>49.90</preco>
+        <data_publicacao>2024-03-15</data_publicacao>
+        <descricao>Livro fictício sobre o último guardião de um reino flutuante que precisa restaurar a energia dos cristais ancestrais.</descricao>
+    </livro>
+
+    <livro id="bk108">
+        <autor>Clarice Lispector</autor>
+        <titulo>A Hora da Estrela</titulo>
+        <genero>Drama</genero>
+        <preco>31.50</preco>
+        <data_publicacao>1977-10-26</data_publicacao>
+        <descricao>A densa e tocante trajetória de Macabéa, uma datilógrafa nordestina vivendo de forma invisível na cidade do Rio de Janeiro.</descricao>
+    </livro>
+
+    <livro id="bk109">
+        <autor>Elena Rostova</autor>
+        <titulo>Sombras no Silêncio</titulo>
+        <genero>Suspense</genero>
+        <preco>42.80</preco>
+        <data_publicacao>2025-11-02</data_publicacao>
+        <descricao>Obra fictícia focada em uma detetive que investiga o desaparecimento de peças de arte em uma vila isolada na Sibéria.</descricao>
+    </livro>
+
+    <livro id="bk110">
+        <autor>Antoine de Saint-Exupéry</autor>
+        <titulo>O Pequeno Príncipe</titulo>
+        <genero>Infantil</genero>
+        <preco>25.00</preco>
+        <data_publicacao>1943-04-06</data_publicacao>
+        <descricao>Uma fábula poética e filosófica sobre a amizade, o amor e a essência humana vista pelos olhos de uma criança.</descricao>
+    </livro>
+
+    <livro id="bk111">
+        <autor>Dr. Marcus Vance</autor>
+        <titulo>Alquimia Digital</titulo>
+        <genero>Ficção Científica</genero>
+        <preco>59.90</preco>
+        <data_publicacao>2026-01-20</data_publicacao>
+        <descricao>Livro fictício que explora um futuro onde a consciência humana pode ser reescrita usando algoritmos de código aberto.</descricao>
+    </livro>
+
+    <livro id="bk112">
+        <autor>Jane Austen</autor>
+        <titulo>Orgulho e Preconceito</titulo>
+        <genero>Romance</genero>
+        <preco>38.00</preco>
+        <data_publicacao>1813-01-28</data_publicacao>
+        <descricao>A clássica comédia romântica que discute os choques de classe, ego e amor entre Elizabeth Bennet e Fitzwilliam Darcy.</descricao>
+    </livro>
+</catalogo>

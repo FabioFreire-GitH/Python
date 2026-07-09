@@ -1,0 +1,23 @@
+{
+  "assinantes": [
+    {
+      "nome": "Carlos Silva",
+      "telefone": "11999998888",
+      "email": "carlos.silva@email.com",
+      "em_dia": true
+    },
+    {
+      "nome": "Ana Souza",
+      "telefone": "21988887777",
+      "email": "ana.souza@email.com",
+      "em_dia": false
+    },
+    {
+      "nome": "Marcos Oliveira",
+      "telefone": "31977776666",
+      "email": "marcos.oliveira@email.com",
+      "em_dia": true
+    }
+  ],
+  "data_extração": "2023/08/22"
+}
