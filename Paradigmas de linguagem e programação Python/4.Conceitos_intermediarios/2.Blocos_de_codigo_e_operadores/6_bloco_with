@@ -1,0 +1,19 @@
+from pathlib import Path
+import tempfile
+
+pasta_atual = Path(__file__).parent
+'''
+arquivo = open(pasta_atual / 'notas.txt', 'w', encoding='utf-8')
+arquivo.write('Esta é uma anotação!')
+arquivo.close()
+'''
+# A forma acima obriga ter que fechar o arquivo e isso pode haver risco de esquecer.
+# abaixo com o Bloco With ja fecha automaticamente. With é gerenciador de contexto
+# acabando a identaçao fecha o arquivo automaticamente
+
+with open(pasta_atual / 'notas.txt', 'w', encoding='utf-8') as arquivo:
+    arquivo.write('Esta é uma anotação!')        
+
+with tempfile.TemporaryDirectory() as temp_dir:
+    print (f'Diretório temporário criado: {temp_dir}')
+    input()

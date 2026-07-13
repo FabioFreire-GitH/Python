@@ -1,0 +1,50 @@
+lista_a = [1, 2, 3, 4, 5]
+lista_b = [1, 2, 3, 4, 5]
+print(lista_a == lista_b)
+lista_a.append(6)
+print(lista_a == lista_b)
+lista_a = [1, 2, 3, 4, 5]
+lista_b = [1, 2, 3, 4, 5]
+print(lista_a is lista_b) # por mais que sejam iguais, eles sao objetos diferentes
+print()
+
+bolo1 = {
+'sabor': 'chocolate',
+'tamanho': 'grande',
+'preço': 50,
+}
+bolo2 = {
+'sabor': 'chocolate',
+'tamanho': 'grande',
+'preço': 50,
+}
+print(bolo1 == bolo2) # o bolo1 é igual ao bolo2
+# output: True
+print(bolo1 is bolo2) # o bolo1 é o bolo2
+# output: False
+bolo1['preço'] = 80
+print(bolo1 == bolo2)
+# output: False
+print(bolo1 is bolo2)
+# output: False
+print()
+print(True is True)
+# output: True
+print(False is True)
+# output: False
+print(None is None)
+# output: True
+print()
+x = 5
+y = 2
+resultado = x > y
+if resultado is True: # if resultado == True:
+    print(f'{x} é maior que {y}')
+else:
+    print(f'{x} não é maior que {y}')
+    
+valor = None
+if valor is not None: # if resultado != None:
+    print(f'valor {valor} não é nulo')
+else:
+    print(f'O valor {valor} é nulo')
