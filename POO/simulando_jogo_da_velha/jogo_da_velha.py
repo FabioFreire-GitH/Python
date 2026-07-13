@@ -119,7 +119,7 @@ class JogoDaVelha:
 
 
 if __name__ == '__main__':
-    jogo = JogoDaVelha('Fabio', 'Suelem')
+    jogo = JogoDaVelha('Jogador1', 'Jogador2')
     jogo.iniciar_jogo()
 
 
